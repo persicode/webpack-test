@@ -1,7 +1,7 @@
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    background: pink;
+    background: peachpuff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,5 +9,14 @@
 
 h1 {
     text-align: center;
-    color: white;
+    color: black;
+}
+
+.logo {
+    background-image: url("../assets/peach.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
 }

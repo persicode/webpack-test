@@ -14,7 +14,7 @@ module.exports = {
 
     output: {
         filename: '[name].[contenthash].js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
     },
 
     plugins: [
@@ -29,6 +29,11 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
+            },
+
+            {
+                test: /\.(jpe?g|png|gif|svg)$/,
+                type: 'asset/resource'
             }
         ]
     }

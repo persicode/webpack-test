@@ -1,8 +1,9 @@
 import Post from './post'
 import json from './assets/json'
+import PeachLogo from './assets/peach.png'
 import './styles/styles.css'
 
-const post = new Post ('Webpack Post Title')
+const post = new Post ('Webpack Post Title', PeachLogo)
 
 console.log('Post to String:', post.toString())
 
