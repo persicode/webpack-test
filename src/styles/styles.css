@@ -1,0 +1,13 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
