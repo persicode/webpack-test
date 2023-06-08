@@ -1,6 +1,6 @@
-import Post from './post'
+import Post from '@models/post'
 import json from './assets/json'
-import PeachLogo from './assets/peach.png'
+import PeachLogo from '@/assets/peach.png'
 import './styles/styles.css'
 
 const post = new Post ('Webpack Post Title', PeachLogo)
