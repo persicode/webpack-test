@@ -1,3 +1,9 @@
+@import "comicsans.css";
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
