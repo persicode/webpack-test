@@ -23,6 +23,10 @@ module.exports = {
         }
     },
 
+    devServer: {
+        port: 4200
+    },
+
     resolve: {
         extensions: ['.js', '.json', '.png'],
 
