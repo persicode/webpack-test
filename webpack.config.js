@@ -77,7 +77,6 @@ module.exports = {
         new MiniCSSExtractPlugin({
             filename: '[name].[contenthash].css'
         }),
-        new CSSMinimizerWebpackPlugin()
     ],
 
     module: {
