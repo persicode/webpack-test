@@ -1,0 +1,21 @@
+$border: #00fa9a;
+
+.box {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background: peachpuff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &__text {
+    background: $border;
+  }
+
+}
